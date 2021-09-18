@@ -1,0 +1,19 @@
+{
+  "name": "tommyleonard",
+  "version": "1.0.0",
+  "description": "Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeNode21/tommyLeonard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeNode21/tommyLeonard/issues"
+  },
+  "homepage": "https://github.com/CodeNode21/tommyLeonard#readme"
+}
