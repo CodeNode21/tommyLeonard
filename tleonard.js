@@ -15,7 +15,7 @@ const content =`
 </head>
 <body>  
   <header>
-    <div class='image'>image</div>
+    <div class='image'><img src='./assets/tommyBoi.png' alt='legendary'/></div>
     <div class='handle'><a>@tommyleonard</a></div>
     <div class='bio'>Rapper, Singer, Producer</div>
   </header>
