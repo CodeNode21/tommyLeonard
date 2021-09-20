@@ -26,7 +26,6 @@ const content =`
   </div>
   <div class='qrCode'>QR Code</div>
   <footer></footer>
-  
 </body>
 </html>
 `;
