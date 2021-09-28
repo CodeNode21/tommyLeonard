@@ -53,6 +53,10 @@ img{
   object-fit: cover;
   
 }
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
 .link{
   margin-top: 15px;
   border: 1px solid currentColor;
