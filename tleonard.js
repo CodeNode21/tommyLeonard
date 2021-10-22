@@ -49,7 +49,7 @@ const content =`
         </div>
       </div>
     </div>
-    <footer></footer>
+    <footer>2021 Leonard Ent.</footer>
   </body>
 </html>
 `;
