@@ -25,7 +25,7 @@ const content =`
             >@tommyleonardjr</a
           >
         </div>
-        <div class="bio">Rapper, Singer, Producer</div>
+        <div class="bio">Rapper | Singer | Producer</div>
       </header>
       <div class="links">
         <div class="link apple">
