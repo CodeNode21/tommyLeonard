@@ -19,7 +19,7 @@ body {
   color: #212529;
   text-align: center;
   background-image: url('../assets/background2.png');
-  background-position: bottom right ;
+  background-position: bottom right;
   background-repeat: no-repeat;
   /* background-size: cover; */
   /* background-image: radial-gradient(
@@ -121,4 +121,9 @@ footer{
   margin-bottom: 0;
   margin-top: 10px;
   bottom: 0;
+}
+@media (max-width: 450px){
+  body{
+    background-position: bottom left;
+  }
 }
