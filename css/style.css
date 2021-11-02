@@ -30,7 +30,6 @@ body {
   color: rgb(79, 79, 79);
 }
 
-
 header {
   padding: 2rem;
   margin-top: 50px;
@@ -57,18 +56,24 @@ a:active {
   height: 100%;
   width: 100%;
 }
-.link{
-  height: 47%;
-}
-.link {
-  margin-top: 15px;
-  border: 1px solid currentColor;
-  color: grey;
-  background-color: papayawhip;
-  padding: 10px;
-  max-width: 250px;
+.links{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  /* background-color: papayawhip;
+  background: rgba(0,0,0,0.6); */
+	/* opacity: 0.6; */
+}
+.link {
+  margin-top: 10px;
+  height: 75px;
+  /* border: 1px solid currentColor; */
+  color: grey;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
   border-radius: 25px;
 }
 @keyframes bounce1 {
@@ -95,20 +100,16 @@ a:active {
     transform: translateY(0);
   }
 }
-.spotify{
+
+.apple, 
+.spotify, .youtube, .ig{
   animation: 1s ease-out 0s 1 bounce1;
 }
-.youtube{
-  animation: 1s ease-out 0s 1 bounce2;
-}
-.ig{
-  animation: 1s ease-out 0s 1 bounce3;
-}
-.link:hover {
+/* .link:hover {
   color: orange;
   box-shadow: 0 2px 4px currentColor;
   transition: box-shadow 0.5s;
-}
+} */
 
 .handle,
 .bio {
@@ -123,5 +124,22 @@ footer{
 @media (max-width: 450px){
   body{
     background-position: bottom left;
+  }
+  .video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 20px;
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .video iframe,  
+  .video object,  
+  .video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 }
