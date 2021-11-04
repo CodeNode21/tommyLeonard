@@ -31,8 +31,8 @@ body {
 }
 
 header {
-  padding: 2rem;
-  margin-top: 50px;
+  padding: 1rem;
+  margin-top: 30px;
   height: 33%;
 }
 .image {
@@ -58,7 +58,9 @@ a:active {
 }
 .links{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 1fr;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -67,14 +69,12 @@ a:active {
 	/* opacity: 0.6; */
 }
 .link {
-  margin-top: 10px;
-  height: 75px;
-  /* border: 1px solid currentColor; */
+  border: 1px solid currentColor;
   color: grey;
-  padding: 10px;
-  margin-right: auto;
-  margin-left: auto;
-  border-radius: 25px;
+  background-color: papayawhip;
+  margin-top: 10px;
+  padding: 5px;
+  min-width: 250px;
 }
 @keyframes bounce1 {
   0% {
@@ -100,16 +100,21 @@ a:active {
     transform: translateY(0);
   }
 }
-
-.apple, 
-.spotify, .youtube, .ig{
+ 
+.spotify{
   animation: 1s ease-out 0s 1 bounce1;
 }
-/* .link:hover {
+.youtube{
+  animation: 1s ease-out 0s 1 bounce2;
+}
+.ig{
+  animation: 1s ease-out 0s 1 bounce3;
+}
+.link:hover {
   color: orange;
   box-shadow: 0 2px 4px currentColor;
   transition: box-shadow 0.5s;
-} */
+}
 
 .handle,
 .bio {
