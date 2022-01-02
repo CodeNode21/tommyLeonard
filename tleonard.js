@@ -1,9 +1,8 @@
-
-const http = require('http');
-const hostname = 'localhost';
+const http = require("http");
+const hostname = "localhost";
 const port = 3001;
 
-const content =`
+const content = `
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -28,15 +27,7 @@ const content =`
         <div class="bio">Rapper | Singer | Producer</div>
       </header>
       <div class='video'>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/watch?v=J0oeEKTIppY"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/J0oeEKTIppY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <div class="links">
         <div class="link apple">
@@ -71,10 +62,10 @@ const content =`
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/html');
+  res.setHeader("Content-Type", "text/html");
   res.end(content);
 });
 
 server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
-})
+});
