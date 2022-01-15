@@ -14,8 +14,8 @@ const content = `
     <link href="css/style.css" rel="stylesheet" />
   </head>
   <body>
-    <div class='content'>
-      <header  class="hero">
+    <div class="content">
+      <header class="hero">
         <div class="image">
           <img src="./assets/tommyBoi.png" alt="legendary" />
         </div>
@@ -26,35 +26,43 @@ const content = `
         </div>
         <div class="bio">Rapper | Singer | Producer</div>
       </header>
-      <div class='video'>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/J0oeEKTIppY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="video">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/J0oeEKTIppY"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       </div>
       <div class="links">
         <div class="link apple">
           <!-- <img src="assets/itunes.png" /> -->
-          <a href="https://music.apple.com/us/artist/tommy-boy/1547198156">Apple Music </a>
+          <a href="https://music.apple.com/us/artist/tommy-boy/1547198156"
+            ><img src="./assets/Button-Apple.png" alt="apple music" />
+          </a>
         </div>
         <div class="link spotify">
           <!-- <img src="assets/spotify.png"/> -->
           <a
             href="https://open.spotify.com/artist/39SZhrlotMDfYHfzKwyF2R?si=qMMZmHaJTPaMcb2FsO2DEA&dl_branch=1"
-            >Spotify</a
+            ><img src="./assets/Button-Spotify.png" alt="spotify" /></a
           >
         </div>
         <div class="link youtube">
           <!-- <img src="assets/youtube.png"/> -->
           <a href="https://www.youtube.com/channel/UCWSXcd6mBV5bFX-W5m0TclQ"
-            >YouTube</a
+            ><img src="./assets/Buttons-YT.png" alt="youtube" /></a
           >
         </div>
         <div class="link ig">
           <!-- <img src="assets/instagram.png"/> -->
-          <a href="https://www.instagram.com/tommyleonardjr/">Instagram</a>
+          <a href="https://www.instagram.com/tommyleonardjr/"><img src="./assets/Buttons-IG.png" alt="instagram" /></a>
         </div>
       </div>
-      <footer class="footer">2021 Leonard Ent.
-      </footer>
-
+      <footer class="footer">2022 Leonard Ent.</footer>
     </div>
   </body>
 </html>
