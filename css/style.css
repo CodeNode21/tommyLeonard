@@ -56,7 +56,9 @@ a:active {
   color: inherit;
   display: block;
   height: 100%;
-  width: 100%;
+  width: 250px;
+  margin-right: auto;
+  background: rgba(0,0,0,0.12); 
 }
 .links{
   display: grid;
@@ -67,14 +69,14 @@ a:active {
   margin-left: auto;
   margin-right: auto;
   /* background-color: papayawhip;
-  background: rgba(0,0,0,0.6); */
 	/* opacity: 0.6; */
 }
 .link {
-  border: 1px solid currentColor;
-  color: grey;
-  background-color: papayawhip;
+  /* border: 1px solid currentColor; */
+  /* color: grey; */
+  /* background-color: papayawhip; */
   margin-top: 3px;
+  border-radius: 15px;
   /* padding: 5px; */
   min-width: 250px;
   height: 45px;
@@ -103,7 +105,10 @@ a:active {
     transform: translateY(0);
   }
 }
- 
+ .dontatme{
+  background: none ; 
+  margin-left: auto;
+ }
 .spotify{
   animation: 1s ease-out 0s 1 bounce1;
 }
@@ -114,7 +119,8 @@ a:active {
   animation: 1s ease-out 0s 1 bounce3;
 }
 .link:hover {
-  color: orange;
+  background: rgba(0,0,0,0.02); 
+  
   box-shadow: 0 2px 4px currentColor;
   transition: box-shadow 0.5s;
 }
