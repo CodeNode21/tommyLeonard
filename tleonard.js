@@ -19,11 +19,6 @@ const content = `
         <div class="image">
           <img src="./assets/tommyBoi.png" alt="legendary" />
         </div>
-        <div class="handle">
-          <a href="https://instagram.com/tommyleonardjr?utm_medium=copy_link"
-            >@tommyleonardjr</a
-          >
-        </div>
         <div class="bio">Rapper | Singer | Producer</div>
       </header>
       <div class="video">
@@ -66,6 +61,7 @@ const content = `
     </div>
   </body>
 </html>
+
 `;
 
 const server = http.createServer((req, res) => {
