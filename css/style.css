@@ -8,7 +8,7 @@
 
 body {
   position: relative;
-  width: calc(100vw-6rem);
+  /* width: calc(100vw-6rem); */
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -18,15 +18,16 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: center;
+  background: radial-gradient(ellipse at top, #7A5649, transparent),
+  radial-gradient(ellipse at bottom, #1E2B2E, transparent);
   background-image: url('../assets/crisp1.jpg');
-  background-position: center 24%;
+  background-position: 48% 24%;
   background-repeat: no-repeat;
   background-size: cover;
   /* background-image: radial-gradient(
     transparent,
     hsla(0,100%, 0%, 0.5)
     ); */
-  background-color: #ff9d89;
   color: rgb(79, 79, 79);
 }
 
