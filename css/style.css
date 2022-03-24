@@ -85,13 +85,14 @@ a:active {
 }
 .link {
   margin-top: 3px;
+  font-family: 'Roboto Slab', serif;
+  text-shadow: 0 5px 20px grey ;
   /* height: 45px; */
   /* border: 1px solid currentColor; */
   /* color: grey; */
   /* background-color: papayawhip; */
   /* padding: 5px; */
   /* border-radius: 15px; */
-  text-shadow: 0 5px 20px grey ;
 }
 @media (max-width: 800px) {
   .links{
