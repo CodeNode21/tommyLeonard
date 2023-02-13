@@ -54,7 +54,7 @@ const content = `
   <a href="https://www.tiktok.com/@tommyleonardjr/">TikTok</a>
 </div>
 </div>
-<footer class="footer">2022 Leonard Ent.</footer>
+<footer class="footer">2023 Leonard Ent.</footer>
 </div>
 </body>
 </html>
